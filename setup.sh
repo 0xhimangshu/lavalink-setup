@@ -1,7 +1,8 @@
-sudo apt install openjdk-17-jdk-headless
-wget https://github.com/lavalink-devs/Lavalink/releases/download/4.0.4/Lavalink.jar
-wget https://github.com/himangshu147-git/lavalink-setup/blob/main/application.yml
+
+wget https://raw.githubusercontent.com/himangshu147-git/lavalink-setup/main/application.yml
+wget https://raw.githubusercontent.com/himangshu147-git/lavalink-setup/main/start.sh
 wget https://github.com/topi314/LavaSrc/releases/download/4.0.1/lavasrc-plugin-4.0.1.jar
+wget wget https://github.com/lavalink-devs/Lavalink/releases/download/4.0.4/Lavalink.jar
 
 mkdir plugins 
 mv lavasrc-plugin-4.0.1.jar plugins

@@ -1,4 +1,3 @@
-
 server:
   port: 2333
   address: 0.0.0.0
@@ -13,8 +12,8 @@ plugins:
       spotify: true 
       youtube: true 
     spotify:
-      clientId: "79dc4bd861934b4cb556317bd95ef541"
-      clientSecret: "dc4c10f211564fc5889f8479475824e7"
+      clientId: "your spotify client id" # get it from https://developers.spotify.com/dashboard
+      clientSecret: "your spotify client secret" # get it from https://developers.spotify.com/dashboard
       countryCode: "IN" 
       playlistLoadLimit: 6 
       albumLoadLimit: 6 
@@ -57,7 +56,7 @@ lavalink:
     gc-warnings: true
 metrics:
   prometheus:
-    enabled: true
+    enabled: false
     endpoint: /metrics
 
 sentry:

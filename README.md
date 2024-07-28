@@ -12,7 +12,7 @@ Ensure you have the following software installed on your system:
 Install JDK:
 ```bash
 sudo apt-get update
-sudo apt-get install openjdk-11-jdk
+sudo apt-get install openjdk-17-jdk
 ```
 Install Node.js and npm:
 ```bash

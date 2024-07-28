@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Variables
 lavalink_config="https://raw.githubusercontent.com/himangshu147-git/lavalink-setup/main/application.yml"
 start_script="https://raw.githubusercontent.com/himangshu147-git/lavalink-setup/main/start.sh"
 lavasrc_plugin_jar="https://github.com/topi314/LavaSrc/releases/download/4.0.1/lavasrc-plugin-4.0.1.jar"

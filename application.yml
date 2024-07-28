@@ -4,6 +4,16 @@ server:
   http2:
     enabled: false
 plugins:
+  youtube:
+    enabled: true 
+    allowSearch: true 
+    allowDirectVideoIds: true 
+    allowDirectPlaylistIds: true 
+    clients:
+      - MUSIC
+      - ANDROID_TESTSUITE
+      - WEB
+      - TVHTML5EMBEDDED
   lavasrc:
     providers:
       - "ytsearch:\"%ISRC%\"" 
@@ -12,8 +22,8 @@ plugins:
       spotify: true 
       youtube: true 
     spotify:
-      clientId: "your spotify client id" # get it from https://developers.spotify.com/dashboard
-      clientSecret: "your spotify client secret" # get it from https://developers.spotify.com/dashboard
+      clientId: "79dc4bd861934b4cb556317bd95ef541" 
+      clientSecret: "dc4c10f211564fc5889f8479475824e7" 
       countryCode: "IN" 
       playlistLoadLimit: 6 
       albumLoadLimit: 6 
@@ -25,7 +35,7 @@ lavalink:
   server:
     password: "youcantcrackit"
     sources:
-      youtube: true
+      youtube: false
       bandcamp: true
       soundcloud: true
       twitch: true

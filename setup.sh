@@ -4,7 +4,8 @@
 lavalink_config="https://raw.githubusercontent.com/himangshu147-git/lavalink-setup/main/application.yml"
 start_script="https://raw.githubusercontent.com/himangshu147-git/lavalink-setup/main/start.sh"
 lavasrc_plugin_jar="https://github.com/topi314/LavaSrc/releases/download/4.0.1/lavasrc-plugin-4.0.1.jar"
-lavalink_jar="https://github.com/lavalink-devs/Lavalink/releases/download/4.0.4/Lavalink.jar"
+youtube_plugin="https://github.com/lavalink-devs/youtube-source/releases/download/1.5.0/youtube-plugin-1.5.0.jar"
+lavalink_jar="https://github.com/lavalink-devs/Lavalink/releases/download/4.0.7/Lavalink.jar"
 
 # Function to install nvm for Linux
 install_nvm() {
@@ -35,8 +36,9 @@ checkNode
 # Create plugins directory
 mkdir -p plugins
 
-# Download and move lavasrc-plugin using wget
+# Download and move plugins using wget
 wget "$lavasrc_plugin_jar" -O plugins/lavasrc-plugin-4.0.1.jar
+wget "$youtube_plugin" -O plugins/youtube-plugin-1.5.0.jar
 
 # Download lavalink and start script using wget
 wget "$lavalink_jar" -O Lavalink.jar
